@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-size:cover;
+            background-image:url(https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8Y2FyJTIwd2FsbHBhcGVyfGVufDB8fDB8fHww)
+        }
+          .name{
+            font-size:18px;
+            color: white;
+            margin-bottom: 10px;
+            margin-left:30px;
+        }
+        p{
+            font-size: 18px;
+            color: white;
+            margin-top: 30px;
+            margin-left: 5px;
+        }
+      
+        .profile-picture{
+            width:fit-content;
+            height: 100px;
+            border-radius: 100cm;
+            margin-left:25px ;
+        }
+        .section{
+            
+            background-color:rgba(0, 0, 0, 0.697);
+            padding: 60px;
+            margin: 60px;
+        }
+        .img{
+         background-color: rgb(255, 255, 255);
+         border-radius: 20cm;
+         margin-top:10px;
+        }
+        .img_linkedin{
+            background-color: white;
+            border-radius: 100cm;
+
+        }
+        .section_social{
+            display: inline-block;
+            
+        }
+        #linkedin{
+            margin-left: 35px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="section">
+      <img src="/images/profile.png" alt="picture" class="profile-picture">
+      <div class="name" >Vakkas1234</div>
+      <p>FrontEnd Developer</p>
+ 
+        <div class="section_social">
+        <img src="/images/github.png"  class="img" alt="">
+         <div style="color: white;"> <a href="https://github.com/vakkas1234" style="color: white;">Github</a></div>
+        </div>
+       
+        <div class="section_social" id="linkedin" >
+            <img src="/images/linkedin.png" class="img_linkedin" alt="">
+            <div style="color:white"> <a href="https://www.linkedin.com/in/vakkas-emre-yildiz-9890b4329/" style="color: white;">Linkedin</a></div>
+        </div>
+
+     
+    </div>
+</body>
+</html>
